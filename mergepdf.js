@@ -7,7 +7,7 @@ const memoryStreams = require('memory-streams');
  * @param {Buffer} secondBuffer 
  * @returns {Buffer} - a Buffer containing the concactenated PDFs
  */
-const combinePDFBuffers = (firstBuffer, secondBuffer) =&gt; {
+const combinePDFBuffers = (firstBuffer, secondBuffer) =gt; {
     var outStream = new memoryStreams.WritableStream();
 
     try {
